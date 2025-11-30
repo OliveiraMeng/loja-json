@@ -1,43 +1,61 @@
 {
-  "identificacao": {
-    "id": 1,
-    "razao_social": "AutoPrime Comércio de Veículos Ltda",
-    "nome_fantasia": "AutoPrime Motors",
-    "tipo_unidade": "Matriz",
-    "segmento": "Revenda Multimarcas Premium"
-  },
+  "unidades": [
+    {
+      "id": 1,
+      "tipo": "Matriz",
+      "cidade": "Blumenau",
+      "nome_identificacao": "AutoPrime - Matriz Blumenau",
+      "foto_loja": "https://placehold.co/600x400/CC0000/FFFFFF?text=Foto+Matriz",
+      "localizacao": {
+        "endereco_texto": "Rua 7 de Setembro, 1500 - Centro, Blumenau - SC, 89010-000",
+        "link_google_maps": "https://goo.gl/maps/linkMatriz",
+        "iframe_google_maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3557.5!2d-49.0!3d-26.9!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMibCsDU0JzAwLjAiUyA0OcKwMDAnMDAuMCJX!5e0!3m2!1spt-BR!2sbr!4v1600000000000!5m2!1spt-BR!2sbr"
+      },
+      "contato": {
+        "horario": "Seg-Sex: 08h às 18h | Sáb: 08h às 13h",
+        "telefones": [
+          { "numero": "(47) 3322-0001", "rotulo": "Fixo" }
+        ],
+        "whatsapp": [
+          { "numero": "5547999991111", "label": "Vendas Blumenau" },
+          { "numero": "5547999992222", "label": "Financeiro" }
+        ],
+        "email": "blumenau@autoprime.com.br"
+      }
+    },
+    {
+      "id": 2,
+      "tipo": "Filial",
+      "cidade": "Indaial",
+      "nome_identificacao": "AutoPrime - Filial Indaial",
+      "foto_loja": "https://placehold.co/600x400/0000CC/FFFFFF?text=Foto+Filial",
+      "localizacao": {
+        "endereco_texto": "Av. Brasil, 500 - Nações, Indaial - SC, 89130-000",
+        "link_google_maps": "https://goo.gl/maps/linkFilial",
+        "iframe_google_maps": "http://googleusercontent.com/maps.google.com/1"
+      },
+      "contato": {
+        "horario": "Seg-Sex: 09h às 19h | Sáb: 09h às 12h",
+        "telefones": [
+          { "numero": "(47) 3333-5555", "rotulo": "Fixo" }
+        ],
+        "whatsapp": [
+          { "numero": "5547988884444", "label": "Vendas Indaial" },
+          { "numero": "5547988885555", "label": "Gerente" }
+        ],
+        "email": "indaial@autoprime.com.br"
+      }
+    }
+  ],
   "midias": {
     "logo": "https://placehold.co/200x80/CC0000/FFFFFF?text=AutoPrime",
     "banners": [
-      "https://placehold.co/1920x600/1a1a1a/FFFFFF?text=Banner+Principal+Promocao",
-      "https://placehold.co/1920x600/333333/FFFFFF?text=Feirao+de+Seminovos",
-      "https://placehold.co/1920x600/555555/FFFFFF?text=Melhor+Avaliacao+do+Seu+Usado",
-      "https://placehold.co/1920x600/777777/FFFFFF?text=Taxas+Especiais+Fim+de+Ano",
-      "https://placehold.co/1920x600/999999/FFFFFF?text=Confira+Nossas+SUVs"
+      "https://placehold.co/1920x600/1a1a1a/FFFFFF?text=Mega+Feirao+AutoPrime",
+      "https://placehold.co/1920x600/333333/FFFFFF?text=Taxas+Reduzidas+Matriz+e+Filial",
+      "https://placehold.co/1920x600/555555/FFFFFF?text=Melhor+Avaliacao+do+Mercado"
     ],
     "banner_video": "https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1&mute=1",
     "video_institucional_link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-  },
-  "localizacao": {
-    "endereco_texto": "Rua 7 de Setembro, 1500 - Centro, Blumenau - SC, 89010-000",
-    "link_google_maps": "https://goo.gl/maps/exemploLinkReal",
-    "iframe_google_maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3557.5!2d-49.0!3d-26.9!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMibCsDU0JzAwLjAiUyA0OcKwMDAnMDAuMCJX!5e0!3m2!1spt-BR!2sbr!4v1600000000000!5m2!1spt-BR!2sbr"
-  },
-  "contato": {
-    "horario_funcionamento": "Segunda a Sexta das 08h às 18h | Sábados das 08h às 13h",
-    "telefones": [
-      { "numero": "(47) 3322-0001", "tipo": "Fixo" },
-      { "numero": "(47) 3322-0002", "tipo": "Comercial" }
-    ],
-    "whatsapp": [
-      { "numero": "5547999990001", "label": "Vendas" },
-      { "numero": "5547999990002", "label": "Financeiro" },
-      { "numero": "5547999990003", "label": "Avaliação" }
-    ],
-    "emails": [
-      "contato@autoprime.com.br",
-      "vendas@autoprime.com.br"
-    ]
   },
   "redes_sociais": {
     "instagram": "https://instagram.com/autoprime",
@@ -46,6 +64,6 @@
     "tiktok": "https://tiktok.com/@autoprime"
   },
   "conteudo": {
-    "texto_empresa": "Fundada em 2010, a AutoPrime nasceu com a missão de realizar sonhos. Especializada em veículos premium e seminovos de procedência, nossa matriz em Blumenau conta com um showroom moderno e climatizado. Todos os nossos veículos passam por uma rigorosa perícia cautelar para garantir sua segurança e tranquilidade. Venha tomar um café conosco e conheça nosso estoque."
+    "texto_empresa": "Fundada em 2010, a AutoPrime expandiu suas fronteiras. Além da nossa tradicional Matriz em Blumenau, agora contamos com uma Filial moderna em Indaial para melhor atender todo o Vale. Garantia de procedência e qualidade em todas as unidades."
   }
 }
