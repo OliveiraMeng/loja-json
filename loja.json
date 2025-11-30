@@ -1,4 +1,12 @@
 {
+  "identidade_visual": {
+    "tema": "claro",
+    "cores": {
+      "primaria": "#800080",
+      "secundaria": "#1a1a1a",
+      "terciaria": "#f4f4f4"
+    }
+  },
   "unidades": [
     {
       "id": 1,
